@@ -1,0 +1,18 @@
+.navbar-header a {
+  color: #5c6bc0!important;
+}
+.ml-60{
+  margin-left: 60%;
+}
+.nav > li > a:hover, .nav > li > a:focus:hover{
+  background-color: orange!important;
+  color: white!important;
+  border-radius:5px !important;
+
+}
+.navbar-nav > li > a{
+  padding-bottom: 5px!important;
+  padding-top: 5px!important;
+  font-weight:bold;
+}
+

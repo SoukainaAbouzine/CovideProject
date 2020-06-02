@@ -1,0 +1,32 @@
+.titre{
+  font-size: 100px;
+  font-weight: bold;
+  color: #FFC107;
+}
+.titre-h3{
+  font-size: 90px;
+  font-weight: bold;
+  color: #337ab7;
+}
+.mrgin-bottom-60{
+  margin-bottom: 60px;
+}
+.ligne-height-10{
+  line-height: 10px;
+}
+.color-blue{
+  color: #3F51B5!important;
+  opacity: 0.5;
+}
+.line-height-15{
+  line-height: 15px;
+}
+.margin-to-30{
+  margin-top: 30px!important;
+}
+#more{
+  display: none;
+}
+.radios-8{
+  border-radius: 8px;
+}
