@@ -6,17 +6,17 @@
 .titre-h3{
   font-size: 90px;
   font-weight: bold;
-  color: #337ab7;
+  color: #fbc10e;
 }
 .mrgin-bottom-60{
   margin-bottom: 60px;
 }
 .ligne-height-10{
-  line-height: 10px;
+  line-height: 20px;
 }
 .color-blue{
-  color: #3F51B5!important;
-  opacity: 0.5;
+  color:black!important;
+  opacity: 0.9;
 }
 .line-height-15{
   line-height: 15px;

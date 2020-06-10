@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ContenuComponent} from './contenu.component';
 
-import { ContenuComponent } from './contenu.component';
+import { from } from 'rxjs';
 
 describe('ContenuComponent', () => {
   let component: ContenuComponent;
