@@ -1,0 +1,28 @@
+body{
+  background-color: #bdc3c7;
+}
+.table-fixed{
+  width: 100%;
+  background-color: #f3f3f3;}
+
+  tbody{
+    height:200px;
+    overflow-y:auto;
+    width: 100%;
+    }
+
+
+  thead tr th{
+       background-color: #419c58;
+       border-color:#ca874d;
+      }
+.cov{
+
+  width: 30%;
+  height: 30%;
+  margin: 40px;
+  margin-top: 5px;
+
+}
+
+

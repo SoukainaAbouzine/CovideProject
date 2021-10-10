@@ -1,0 +1,28 @@
+.example-card {
+  /*max-width: 350px;*/
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.s-fever{
+
+  color: rgb(90, 194, 201);
+}
+.s-cough{
+  text-align: center;
+  color: rgb(254, 201, 124);
+}
+.s-breath{
+  text-align: center;
+  color: rgb(247, 172, 174);
+}
+.mat-card-header{
+  justify-content: center;
+}
+.mat-card{
+  margin: 20px;
+}
+
+

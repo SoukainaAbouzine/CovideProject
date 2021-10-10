@@ -1,0 +1,28 @@
+<div class="container mb-2" >
+  <h3 style="text-align: center; color: red">Contacts List</h3>
+  <div class="tbl-header"></div>
+<table class="table table-striped " style="width: 100%">
+  <thead>
+  <tr>
+    <th class="text-center" ><i class="fa fa-hashtag"></i></th>
+    <th class="text-center">Name</th>
+    <th class="text-center">Email</th>
+    <th class="text-center">Message</th>
+    <th class="text-center">Opperation</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let item of Contact;">
+    <td class="text-center">{{item.id}}</td>
+    <td class="text-center">{{item.name}}</td>
+    <td class="text-center">{{ item.email }}</td>
+    <td class="text-center">{{ item.message }}</td>
+    <td class="text-center"><i  (click)="deleteMsg(item.id)" class="fa fa-trash" aria-hidden="true" style="font-size: 20px;color: red;"></i></td>
+  </tr>
+  </tbody>
+</table>
+</div>
+<div  class="container"  >
+  <img class="cov" src="../../assets/image/coronahome.jpg"  >
+
+</div>

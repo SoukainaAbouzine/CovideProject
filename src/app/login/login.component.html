@@ -1,0 +1,29 @@
+<div class="container ">
+  <div class="card shadow p-5 width-500 align-content-center ml-auto mr-auto">
+    <div *ngIf="error" class="alert alert-danger p-2">{{error}}</div>
+    <h3 class="text-center m-3 text-info" style="text-align: center; color:#ffc214">Authentication</h3>
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+      <div class="form-group">
+
+
+        <input  type="text" formControlName="email" class="form-control"  placeholder="Username" />
+        </div>
+
+      <div class="form-group">
+
+          <p><span class="fontawesome-lock"></span>
+        <input  type="password" formControlName="password" class="form-control"  placeholder="Password" />
+      </p>
+      </div>
+      <div class="form-group">
+        <button  class="btn btn-success" >Login</button>
+      </div>
+    </form>
+    <div class=conteneur>
+      <img  class=" img-c" src="../../assets/image/corona.jpg"  >
+    </div>
+  </div>
+</div>
+
